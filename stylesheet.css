@@ -1,10 +1,51 @@
 img{
     position:absolute;
-    height:12em;
-    width:12em;
+    height:200px;
+    width:150px;
     right:0;
+    top:-10px;
+    border:0,0,10px,10px;
 }
 
-personal{
-    border-bottom:3px;
+a{
+    text-decoration:dashed;
+    color:gray;
+}
+
+ul{
+    list-style-type:none;
+}
+
+.heading{
+    font-style:italic;
+    float:left;
+    font-family:sans-serif;
+    width:15%;
+    text-align:right;
+}
+
+.detail{
+    float:right;
+    font-family:sans-serif;
+    border-left:1px solid gray;
+    width:80%;
+}
+
+.paragraph{
+    color:gray;
+    font-family:Times;
+    width:78%;
+}
+
+.personal{
+    float:top;
+    right:0;
+    left:0;
+    border-top:1px solid gray;
+    width:100%;
+}
+
+#education{
+    float:top;
+    clear:bottom;
 }
