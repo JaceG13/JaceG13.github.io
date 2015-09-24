@@ -19,7 +19,27 @@ span{
     
 }
 
-.heading{
+.paragraph{
+    color:gray;
+    font-family:Times;
+    font-style:italic;
+    width:78%;
+}
+
+.personal{
+    float:top;
+    right:0;
+    left:0;
+    border-top:5px solid gray;
+    width:100%;
+}
+
+.space{
+    width:100%;
+    height:20%;
+}
+
+.education{
     font-style:italic;
     float:left;
     font-family:sans-serif;
@@ -28,7 +48,7 @@ span{
     text-align:right;
 }
 
-.detail{
+.edu_detail{
     float:right;
     font-family:sans-serif;
     border-left:1px solid gray;
@@ -37,21 +57,74 @@ span{
     padding-left:1%;
 }
 
-.paragraph{
-    color:gray;
-    font-family:Times;
-    width:78%;
+.skills{
+    font-style:italic;
+    float:left;
+    font-family:sans-serif;
+    width:20%;
+    height:100px;
+    text-align:right;
 }
 
-.personal{
-    float:top;
-    right:0;
-    left:0;
-    border-top:1px solid gray;
-    width:100%;
+.ski_detail{
+    float:right;
+    font-family:sans-serif;
+    border-left:1px solid gray;
+    width:77%;
+    height:100px;
+    padding-left:1%;
 }
 
-/*#education{
-    float:top;
-    clear:bottom;
-}*/
+.experience{
+    font-style:italic;
+    float:left;
+    font-family:sans-serif;
+    width:20%;
+    height:100px;
+    text-align:right;
+}
+
+.exp_detail{
+    float:right;
+    font-family:sans-serif;
+    border-left:1px solid gray;
+    width:77%;
+    height:100px;
+    padding-left:1%;
+}
+
+.hobbies{
+    font-style:italic;
+    float:left;
+    font-family:sans-serif;
+    width:20%;
+    height:100px;
+    text-align:right;
+}
+
+.hob_detail{
+    float:right;
+    font-family:sans-serif;
+    border-left:1px solid gray;
+    width:77%;
+    height:100px;
+    padding-left:1%;
+}
+
+.references{
+    font-style:italic;
+    float:left;
+    font-family:sans-serif;
+    width:20%;
+    height:100px;
+    text-align:right;
+}
+
+.ref_detail{
+    float:right;
+    font-family:sans-serif;
+    border-left:1px solid gray;
+    width:77%;
+    height:100px;
+    padding-left:1%;
+}
